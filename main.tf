@@ -5,6 +5,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "myfirstserverfromterra" {
-ami = "ami-0a1b37d39fbc96e3"  
-instance_type = "t2.micro"
+  ami           = "ami-0a1b37d39fbc96e3"
+  instance_type = "t2.micro"
 }
